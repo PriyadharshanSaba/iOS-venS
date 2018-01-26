@@ -18,15 +18,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bk7-EY-etT">
-                                <rect key="frame" x="88" y="382" width="199" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RBu-BC-A3M">
+                                <rect key="frame" x="49" y="445" width="199" height="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VfZ-Ki-ERh">
+                                <rect key="frame" x="49" y="483" width="199" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7o-iw-Nk2">
+                                <rect key="frame" x="49" y="411" width="76" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="Ebz-e2-VhB"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="LOGIN">
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="Verdana"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSe-Ms-wCg">
+                                <rect key="frame" x="248" y="445" width="60" height="68"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aSe-Ms-wCg" firstAttribute="top" secondItem="RBu-BC-A3M" secondAttribute="top" id="5g8-fJ-HGA"/>
+                            <constraint firstItem="VfZ-Ki-ERh" firstAttribute="top" secondItem="RBu-BC-A3M" secondAttribute="bottom" constant="8" symbolic="YES" id="Dm1-AD-wgc"/>
+                            <constraint firstItem="V7o-iw-Nk2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="EHX-Po-UfP"/>
+                            <constraint firstItem="V7o-iw-Nk2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="391" id="JLv-hr-Ci8"/>
+                            <constraint firstItem="VfZ-Ki-ERh" firstAttribute="trailing" secondItem="RBu-BC-A3M" secondAttribute="trailing" id="Zet-Th-TfF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aSe-Ms-wCg" secondAttribute="trailing" constant="67" id="aCR-gS-yjn"/>
+                            <constraint firstItem="aSe-Ms-wCg" firstAttribute="bottom" secondItem="VfZ-Ki-ERh" secondAttribute="bottom" id="eeP-zA-blN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VfZ-Ki-ERh" secondAttribute="trailing" constant="127" id="fjS-M2-kYj"/>
+                            <constraint firstItem="V7o-iw-Nk2" firstAttribute="leading" secondItem="RBu-BC-A3M" secondAttribute="leading" id="gQn-87-MsA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V7o-iw-Nk2" secondAttribute="trailing" constant="250" id="jdN-O4-kKf"/>
+                            <constraint firstItem="aSe-Ms-wCg" firstAttribute="leading" secondItem="VfZ-Ki-ERh" secondAttribute="trailing" id="s7o-hw-Vo9"/>
+                            <constraint firstItem="RBu-BC-A3M" firstAttribute="top" secondItem="V7o-iw-Nk2" secondAttribute="bottom" constant="8" symbolic="YES" id="seX-5H-0W7"/>
+                            <constraint firstItem="V7o-iw-Nk2" firstAttribute="leading" secondItem="VfZ-Ki-ERh" secondAttribute="leading" id="wOa-av-J3M"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
