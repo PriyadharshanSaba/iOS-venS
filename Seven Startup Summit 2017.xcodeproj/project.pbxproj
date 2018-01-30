@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F535F6CA2016E6270029014A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F535F6C92016E6270029014A /* AppDelegate.swift */; };
-		F535F6CC2016E6270029014A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F535F6CB2016E6270029014A /* ViewController.swift */; };
+		F535F6CC2016E6270029014A /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F535F6CB2016E6270029014A /* LoginPage.swift */; };
 		F535F6CF2016E6270029014A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F535F6CD2016E6270029014A /* Main.storyboard */; };
 		F535F6D12016E6270029014A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F535F6D02016E6270029014A /* Assets.xcassets */; };
 		F535F6D42016E6270029014A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F535F6D22016E6270029014A /* LaunchScreen.storyboard */; };
 		F535F6DF2016E6270029014A /* Seven_Startup_Summit_2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F535F6DE2016E6270029014A /* Seven_Startup_Summit_2017Tests.swift */; };
+		F5D84E922020E63A001AC91A /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D84E912020E63A001AC91A /* home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		F535F6C62016E6270029014A /* Seven Startup Summit 2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seven Startup Summit 2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F535F6C92016E6270029014A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F535F6CB2016E6270029014A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F535F6CB2016E6270029014A /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		F535F6CE2016E6270029014A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F535F6D02016E6270029014A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F535F6D32016E6270029014A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		F535F6DA2016E6270029014A /* Seven Startup Summit 2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seven Startup Summit 2017Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F535F6DE2016E6270029014A /* Seven_Startup_Summit_2017Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seven_Startup_Summit_2017Tests.swift; sourceTree = "<group>"; };
 		F535F6E02016E6270029014A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D84E912020E63A001AC91A /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				F535F6C92016E6270029014A /* AppDelegate.swift */,
-				F535F6CB2016E6270029014A /* ViewController.swift */,
+				F535F6CB2016E6270029014A /* LoginPage.swift */,
+				F5D84E912020E63A001AC91A /* home.swift */,
 				F535F6CD2016E6270029014A /* Main.storyboard */,
 				F535F6D02016E6270029014A /* Assets.xcassets */,
 				F535F6D22016E6270029014A /* LaunchScreen.storyboard */,
@@ -199,7 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F535F6CC2016E6270029014A /* ViewController.swift in Sources */,
+				F5D84E922020E63A001AC91A /* home.swift in Sources */,
+				F535F6CC2016E6270029014A /* LoginPage.swift in Sources */,
 				F535F6CA2016E6270029014A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
